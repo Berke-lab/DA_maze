@@ -1254,7 +1254,7 @@ def create_sameValtPreCpDARatMeans(hexData):
     return ratSameValtPreCpDA
 
 
-def plot_rampSequenceRatAvg(hexData,rPat=[0,1],altPath=False,alongPath=False)
+def plot_rampSequenceRatAvg(hexData,rPat=[0,1],altPath=False,alongPath=False):
     alphaVal = 0.05
     entriesByRat = np.zeros((len(rPat),9,16))
     totEntries = 0
